@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    background-image: url(https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 100%;;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(90, 76, 68);
+    color:red;
+}
+.intro{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.foothead{
+    justify-content: center;
+}
+div img{
+    width: 20px;
+}
+section{
+    display: flex;
+    height: 100vh;
+}
+.about{
+    background-color: green;
+    background-image: url(https://images.pexels.com/photos/2360569/pexels-photo-2360569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-color: yellow;
+}
+.resume{
+    background-color: white;
+}
+.projects{
+    background-color: blue;
+}
+nav img{
+    width: 150px;
+    margin-left: 50px;
+}
+nav{
+    width: 150px;
+    height: 90px;
+    overflow: hidden;
+}
+.logo{
+    overflow: hidden;
+    display: flex;
+    flex-basis: 65%;
+}
+.menu{
+    color: red;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+.menu-box{
+    width: fit-content;
+    height: 13px;
+    border-width: 3px;
+    padding: 9px;
+    text-align: center;
+    margin: 5px;
+}
+.menu-box:hover{
+    cursor: pointer;
+    color:black;
+    font-size: 20px;
+    background-color: #fff;
+    border-bottom: grey solid;
+    border-width: 4px;
+}
